@@ -1,1 +1,2 @@
-# 100 days bootcamp
+# 100 days bootcamp python
+import day1
