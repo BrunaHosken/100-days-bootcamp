@@ -10,7 +10,17 @@ files = [
     {file = "madPython-1.0.0.zip", hash = "sha256:ada0102a07aa1de800fdd702a4e5f3610d0b586b669ad07ece518d8ff7bad4bd"},
 ]
 
+[[package]]
+name = "my-module"
+version = "1.6.2"
+description = "a simple module for printing lists"
+optional = false
+python-versions = "*"
+files = [
+    {file = "my_module-1.6.2.zip", hash = "sha256:14a0cffb0e077ca69404729a852b4088c503a25ecf63ef5b12fbfa2257e43318"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "dbd8709cedd48c9441628cdebbb67262ec0724833776609ab06c3b386a18261f"
+content-hash = "61ee16fbe08d39741d4fc14a021e2b467202af5a0913a418afbd93c0b7813e53"
