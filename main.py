@@ -9,4 +9,6 @@
 # import day5
 # import day5_project
 # import day6
-import day7
+# import day7
+# import day8
+import day8_project
