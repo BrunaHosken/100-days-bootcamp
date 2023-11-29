@@ -12,4 +12,4 @@ Projects:
 - Hangman
 - Caesar Cipher
 - Secret auction program
--
+- Calculator
