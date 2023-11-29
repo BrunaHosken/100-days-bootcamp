@@ -1,11 +1,12 @@
 #day8 project
 #Caesar Cipher
-import art_day8
+
+from caesar_files.art import logo
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 again = "yes"  
 
-print(art_day8.logo)
+print(logo)
 
 def caesar(text, shift, direction):
     if(direction == "encode" or direction == "decode"):

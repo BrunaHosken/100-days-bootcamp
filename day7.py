@@ -2,16 +2,16 @@
 #hangman project
 
 import random
-import hangman_words
-import hangman_art 
+from hangman_files.hangman_words import word_list
+from hangman_files.hangman_art import stages, logo
 
 
 end_of_game = False 
 
 lives = 6
 
-chosen_world = random.choice(hangman_words.word_list)
-print(hangman_art.logo)
+chosen_world = random.choice(word_list)
+print(logo)
 world_length = len(chosen_world)
 
 display = []
@@ -36,7 +36,7 @@ while not end_of_game:
     print("The letter is not in the word")
     lives -= 1
     
-  print(f"{hangman_art.stages[lives]}")
+  print(f"{stages[lives]}")
   print(f"{' '.join(display)}")
   
   if("_" not in display):

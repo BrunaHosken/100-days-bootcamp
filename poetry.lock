@@ -236,6 +236,19 @@ files = [
 ]
 
 [[package]]
+name = "caesar"
+version = "0.1.3"
+description = "A command line e-mail helper"
+optional = false
+python-versions = "*"
+files = [
+    {file = "caesar-0.1.3.tar.gz", hash = "sha256:f7f89f22a1f550cf164cb534d32629052232b06a4f0b09c7f3163ee1893f5f13"},
+]
+
+[package.dependencies]
+colorama = "0.3.3"
+
+[[package]]
 name = "certifi"
 version = "2023.11.17"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -425,13 +438,12 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "colorama"
-version = "0.4.6"
+version = "0.3.3"
 description = "Cross-platform colored terminal text."
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
+python-versions = "*"
 files = [
-    {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
-    {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
+    {file = "colorama-0.3.3.tar.gz", hash = "sha256:eb21f2ba718fbf357afdfdf6f641ab393901c7ca8d9f37edd0bee4806ffa269c"},
 ]
 
 [[package]]
@@ -1103,4 +1115,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "34bc49987ad0c4856549b74ce92a3bc4870f76bee6bdf840e96a62e377b0ff83"
+content-hash = "fc9b6349877212a0b9787cec64c84e480716b25d6a23f138a8925560ae50bd4e"

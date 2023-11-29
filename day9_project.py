@@ -1,5 +1,5 @@
 from replit import clear
-from art_day9 import logo
+from secret_auction_files.art import logo
 #HINT: You can call clear() to clear the output in the console.
 
 print(logo)

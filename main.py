@@ -13,8 +13,8 @@
 # import day8
 # import day8_project
 # import day9
-import day9_project
-# import day10
+# import day9_project
+import day10
 # import day10_project
 # import day11
 # import day11_project
