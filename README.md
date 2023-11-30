@@ -13,3 +13,4 @@ Projects:
 - Caesar Cipher
 - Secret auction program
 - Calculator
+- Blackjack Program
