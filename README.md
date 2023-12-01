@@ -14,3 +14,4 @@ Projects:
 - Secret auction program
 - Calculator
 - Blackjack Program
+- Number Guessing Game
