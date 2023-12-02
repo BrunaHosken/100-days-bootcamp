@@ -1,4 +1,3 @@
-.py
 #Day 3
 # Control Flow and Logical Operators
 
@@ -31,5 +30,3 @@ if height >= 120:
 
 else:
   print("Sorry, you are not tall enough to ride the rollercoaster.")
-
-
