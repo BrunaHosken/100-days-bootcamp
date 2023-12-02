@@ -9,9 +9,10 @@ Projects:
 - Treasure Map
 - PyPassword Generator
 - Escaping the Maze (Reeborg)
-- Hangman
+- Hangman Game
 - Caesar Cipher
 - Secret auction program
 - Calculator
-- Blackjack Program
+- Blackjack Game
 - Number Guessing Game
+- Higher Lower Game
