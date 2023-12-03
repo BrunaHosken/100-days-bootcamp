@@ -1,3 +1,4 @@
+#Higher or lower gate
 from higher_lower_files.art import logo, vs
 from higher_lower_files.game_data import data
 import random

@@ -16,3 +16,4 @@ Projects:
 - Blackjack Game
 - Number Guessing Game
 - Higher Lower Game
+- Coffee Machine
