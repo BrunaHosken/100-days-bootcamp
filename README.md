@@ -17,3 +17,4 @@ Projects:
 - Number Guessing Game
 - Higher Lower Game
 - Coffee Machine
+- Coffee Machine OOP
