@@ -1,3 +1,5 @@
+#calculator
+
 from calculator_files.art import logo
 from replit import clear
 

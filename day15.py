@@ -1,3 +1,5 @@
+#day 15
+#coffe machine project
 MENU = {
     "espresso": {
         "ingredients": {

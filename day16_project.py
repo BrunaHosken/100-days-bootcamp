@@ -1,3 +1,5 @@
+#coffe machine oop project
+
 from coffee_maker_files.coffe_maker import CoffeeMaker
 from coffee_maker_files.money_machine import MoneyMachine
 from coffee_maker_files.menu import Menu
