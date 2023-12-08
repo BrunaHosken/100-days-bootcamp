@@ -19,3 +19,4 @@ Projects:
 - Coffee Machine
 - Coffee Machine OOP
 - Quiz Project OOP
+- Hirst Paiting Project
