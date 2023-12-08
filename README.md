@@ -18,3 +18,4 @@ Projects:
 - Higher Lower Game
 - Coffee Machine
 - Coffee Machine OOP
+- Quiz Project OOP
