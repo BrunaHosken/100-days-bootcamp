@@ -20,3 +20,5 @@ Projects:
 - Coffee Machine OOP
 - Quiz Project OOP
 - Hirst Paiting Project
+- Etch-A-Sketch
+- Turtle Race
