@@ -16,12 +16,12 @@ def random_color():
     color = (r,g,b)
     return color
 
-def make_shapes(turtle, angle, range_shape):
+def make_shapes(angle, range_shape):
     for _ in range(range_shape):
         turtle.forward(100)
         turtle.left(angle)
 
-def calc_shapes(turtle):
+def calc_shapes():
     angle = 360
     for i in range(3,11):
         turtle.color(random_color())
@@ -30,14 +30,14 @@ def calc_shapes(turtle):
 
 
 
-def make_dashed_line(turtle):
+def make_dashed_line():
     for _ in range(15):
         turtle.pendown()
         turtle.forward(10)
         turtle.penup()
         turtle.forward(10)
 
-def random_walk(turtle):
+def random_walk():
     for _ in range(200):
         color = random_color()
         width = random.randint(0, 10)
@@ -47,7 +47,7 @@ def random_walk(turtle):
         turtle.forward(50)
         turtle.setheading(direction)
 
-def spirograph(turtle,size):
+def spirograph(size):
     for i in range(int(360/size)):
         turtle.color(random_color())
         turtle.circle(100)
@@ -58,11 +58,11 @@ def spirograph(turtle,size):
 turtle = t.Turtle() 
 turtle.shape("turtle")
 turtle.speed('fastest')
-# make_dashed_line(turtle)
-# calc_shapes(turtle)
-# random_walk(turtle)
+# make_dashed_line()
+# calc_shapes()
+# random_walk()
 
-spirograph(turtle, 20)  
+spirograph(20)  
 
 screen = t.Screen()
 screen.exitonclick()
