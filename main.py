@@ -28,13 +28,11 @@
 # import day17_project
 # import day18
 # import day18_project
-import day19
-import day19_project
-import day19_project2
-# import day20
-# import day20_project
+# import day19
+# import day19_project
+# import day19_project2
+# import day20_21
 # import day21
-# import day21_project
 # import day22
 # import day22_project
 # import day23

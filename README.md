@@ -22,3 +22,4 @@ Projects:
 - Hirst Paiting Project
 - Etch-A-Sketch
 - Turtle Race
+- Snake game
