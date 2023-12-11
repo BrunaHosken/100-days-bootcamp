@@ -23,3 +23,4 @@ Projects:
 - Etch-A-Sketch
 - Turtle Race
 - Snake game
+- Pong game
