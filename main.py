@@ -34,8 +34,7 @@
 # import day20_21
 # import day21
 # import day22
-import day23
-# import day23_project
+# import day23
 # import day24
-# import day24_project
+import day24_project
 

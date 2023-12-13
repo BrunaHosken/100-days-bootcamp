@@ -53,4 +53,9 @@ class Snake:
         snake.color("white")
         self.snake_list.append(snake)
     
-  
+    def reset(self):
+        for snake in self.snake_list:
+            snake.goto(1000,1000)
+        self.snake_list.clear()
+        self.create_snake()
+        self.head = self.snake_list[0]
