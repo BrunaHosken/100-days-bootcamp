@@ -26,3 +26,4 @@ Projects:
 - Pong game
 - Turtle crossing game
 - Mail Merge
+- U.S. States Game
