@@ -8,8 +8,8 @@ window.config(padx = 20, pady = 20)
 def button_clicked():
     text = miles.get()
     if(text):
-        text_converted = int(text)*1.609
-        km.config(text=text_converted)
+        text_converted = float(text)*1.609
+        km.config(text=f"{text_converted}")
 
 label = Label(text="is equal to")
 label.grid(column=0, row=1)
