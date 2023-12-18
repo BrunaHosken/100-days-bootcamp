@@ -42,9 +42,8 @@
 # import day26
 # import day27_project
 # import day27
-import day28
-# import day29_project
-# import day29
+# import day28
+import day29
 # import day30_project
 # import day30
 # import day31_project
