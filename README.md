@@ -31,3 +31,4 @@ Projects:
 - Mile to Km Convertor
 - Pomodoro GUI 
 - Password Manager
+- Flash Card (French - English)
