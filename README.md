@@ -32,3 +32,4 @@ Projects:
 - Pomodoro GUI 
 - Password Manager
 - Flash Card (French - English)
+- Automated Birthday Wisher
