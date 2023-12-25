@@ -33,3 +33,5 @@ Projects:
 - Password Manager
 - Flash Card (French - English)
 - Automated Birthday Wisher
+- ISS Overhead Notifier
+- Kanye Quotes
