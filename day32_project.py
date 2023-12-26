@@ -1,12 +1,16 @@
 # Automated Birthday Wisher
+import os
+from dotenv import load_dotenv
 import smtplib
 import datetime as dt
 import pandas
 import random
 
 
-my_email = "teste@gmail.com"
-password="gjlztlmeifwusepf"
+load_dotenv()
+
+my_email = os.getenv('EMAIL_FROM')
+password=os.getenv('PASSWORD_FROM')
 
 now = dt.datetime.now()
 today_month = now.month

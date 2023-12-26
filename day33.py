@@ -1,13 +1,19 @@
 #day 33
 #API'S
 
+import os
+from dotenv import load_dotenv
 import requests
 import smtplib
 from datetime import datetime
 import time
 
-my_email = "teste@gmail.com"
-password="gjlztlmeifwusepf"
+load_dotenv()
+
+my_email = os.getenv('EMAIL_FROM')
+password=os.getenv('PASSWORD_FROM')
+
+to_email = os.getenv('EMAIL_TO')
 
 MY_LAT = -22.289181
 MY_LONG = -42.534561
@@ -48,7 +54,7 @@ while True:
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             connection.starttls()
             connection.login(user=my_email,password=password)
-            connection.sendmail(from_addr=my_email, to_addrs="bruna@gmail.com", msg=f"Subject:ISS Notifier\n\n Look to the sky")
+            connection.sendmail(from_addr=my_email, to_addrs=to_email, msg=f"Subject:ISS Notifier\n\n Look to the sky")
             connection.close()
      
 

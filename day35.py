@@ -1,16 +1,25 @@
 # rain alert
 
 import requests
+import os
 from twilio.rest import Client
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LAT = -22.289181
 LONG = -42.534561
 
-API_KEY = "9d7c65f89dd09a5b7543f5d4f6b54107"
+API_KEY = os.getenv('API_KEY')
 URL = "http://api.openweathermap.org/data/2.5/forecast"
 
-account_sid = 'AC0aefa6bd8bf270e3df43fc635947a0ed'
-auth_token = 'a9fa40f6438e5b37db472cb45343a8c6'
+account_sid = os.getenv('ACCOUNT_SID')
+auth_token = os.getenv('AUTH_TOKEN')
+
+sms_from = os.getenv('SMS_FROM')
+sms_to = os.getenv('SMS_TO')
+print(API_KEY)
+
 
 
 parametres = {
@@ -36,7 +45,7 @@ if will_rain:
    client = Client(account_sid, auth_token)
    message = client.messages.create(
        body="It's rain today. Remember to bring an umbrella!!",
-       from_='+14252766558',
-       to='+55229999999999'
+       from_=sms_from,
+       to=sms_to
     )
    print(message.status)
