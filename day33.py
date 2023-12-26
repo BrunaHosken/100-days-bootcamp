@@ -9,8 +9,8 @@ import time
 my_email = "teste@gmail.com"
 password="gjlztlmeifwusepf"
 
-LAT = -22.289181
-LONG = -42.534561
+MY_LAT = -22.289181
+MY_LONG = -42.534561
 
 def iss_position():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
