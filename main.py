@@ -51,7 +51,6 @@
 # import day32
 # import day33_project
 # import day33
-# import day34_project
 # import day34
 # import day35_project
 # import day35

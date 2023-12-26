@@ -35,3 +35,4 @@ Projects:
 - Automated Birthday Wisher
 - ISS Overhead Notifier
 - Kanye Quotes
+- Quizzler Trivia
