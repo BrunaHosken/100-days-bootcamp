@@ -37,3 +37,5 @@ Projects:
 - Kanye Quotes
 - Quizzler Trivia
 - Rain alert
+- Stock Trading New Alert
+- Habit Tracking (pixela)
