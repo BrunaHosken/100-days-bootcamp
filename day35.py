@@ -10,7 +10,7 @@ load_dotenv()
 LAT = -22.289181
 LONG = -42.534561
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv('WEATHER_API_KEY')
 URL = "http://api.openweathermap.org/data/2.5/forecast"
 
 account_sid = os.getenv('ACCOUNT_SID')
@@ -18,8 +18,6 @@ auth_token = os.getenv('AUTH_TOKEN')
 
 sms_from = os.getenv('SMS_FROM')
 sms_to = os.getenv('SMS_TO')
-print(API_KEY)
-
 
 
 parametres = {
