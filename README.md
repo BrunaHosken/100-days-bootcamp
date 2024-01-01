@@ -40,3 +40,4 @@ Projects:
 - Stock Trading New Alert
 - Habit Tracking (pixela)
 - Workout tracking with google sheets
+- Flight Deal Finder
