@@ -59,12 +59,10 @@
 # import day38
 # import day39_40
 # import day41
-# import day42_project
 # import day42
-# import day43_project
 # import day43
-# import day44_project
 # import day44
+
 # import day45_project
 # import day45
 # import day46_project
