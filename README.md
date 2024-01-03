@@ -41,5 +41,3 @@ Projects:
 - Habit Tracking (pixela)
 - Workout tracking with google sheets
 - Flight Deal Finder
-- Movie Ranking
-- Birthday Invite

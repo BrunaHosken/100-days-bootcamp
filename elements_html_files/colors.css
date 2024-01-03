@@ -1,0 +1,101 @@
+html{
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#colors{
+    font-size: 18px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#colors h1{
+    color: whitesmoke;
+    background-color: darkseagreen;
+}
+#colors h2{
+    color: #FAF8F1;
+    background-color: #C58940;
+}
+
+
+#fonts{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+}
+
+#fonts #color{
+    color: coral;
+}
+
+#fonts #font-size{
+    font-size: 2rem;
+}
+
+#fonts #font-weight{
+    font-weight: 900;
+}
+
+#fonts #font-family{
+    font-family: 'Caveat', cursive;
+}
+
+#fonts #font-align{
+    text-align: right;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+}
+
+#box1{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px black solid;
+}
+
+#box1 p{
+    font-size: 15px;
+    margin: 0;
+}
+#box2{
+    background-color: gold;
+    border: black solid;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+#box3{
+    background-color: indianred;
+    border: 10px black solid;
+    margin-left: 40px;
+}
+
+
+#project{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5rem 0;
+    font-size: 18px;
+}
+#project-body {
+   
+    width: 50%;
+    margin-left: 25%;
+}
+
+img{
+    border: 5px white solid;
+    width: 100%;
+}
+
+#project-body h1{
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
