@@ -42,3 +42,4 @@ Projects:
 - Workout tracking with google sheets
 - Flight Deal Finder
 - 100 Movies that you must watch
+- Spotify Playlist
