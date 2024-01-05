@@ -43,3 +43,4 @@ Projects:
 - Flight Deal Finder
 - 100 Movies that you must watch
 - Spotify Playlist
+- Automated Amazon Price Tracker
