@@ -44,7 +44,6 @@
 # import day27
 # import day28
 # import day29
-# import day30_project
 # import day30
 # import day31
 # import day32_project
@@ -52,7 +51,6 @@
 # import day33_project
 # import day33
 # import day34
-# import day35_project
 # import day35
 # import day36
 # import day37
@@ -62,17 +60,15 @@
 # import day42
 # import day43
 # import day44
-
 # import day45_project
 # import day45
-# import day46_project
 # import day46
-# import day47_project
 # import day47
 # import day48_project
 # import day48
-# import day49_project
 # import day49
+# import interaction
+
 # import day50_project
 # import day50
 # import day51_project
