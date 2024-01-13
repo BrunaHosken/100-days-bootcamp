@@ -44,3 +44,5 @@ Projects:
 - 100 Movies that you must watch
 - Spotify Playlist
 - Automated Amazon Price Tracker
+- Automated clicker game bot
+- Automating job aplications
