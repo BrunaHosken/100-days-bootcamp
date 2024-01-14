@@ -1,4 +1,4 @@
-# Automated Tinder Swiping Bot
+# Automated Speed Twitter Complain Bot
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -62,5 +62,5 @@ bot.tweet_at_provider()
 print(bot.up)
 print(bot.down)
 sleep(2)
-# driver.quit()
+driver.quit()
 

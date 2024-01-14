@@ -47,3 +47,5 @@ Projects:
 - Automated clicker game bot
 - Automated job aplications Bot
 - Automated Tinder Swiping Bot
+- Automated Speed Twitter Complain Bot
+- Automated Instagram Folower Bot
