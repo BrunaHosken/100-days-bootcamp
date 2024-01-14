@@ -69,7 +69,6 @@
 # import day49
 # import interaction
 
-# import day50_project
 # import day50
 # import day51_project
 # import day51

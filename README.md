@@ -45,4 +45,5 @@ Projects:
 - Spotify Playlist
 - Automated Amazon Price Tracker
 - Automated clicker game bot
-- Automating job aplications
+- Automated job aplications Bot
+- Automated Tinder Swiping Bot
