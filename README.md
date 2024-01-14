@@ -49,3 +49,4 @@ Projects:
 - Automated Tinder Swiping Bot
 - Automated Speed Twitter Complain Bot
 - Automated Instagram Folower Bot
+- Data entry job aplication

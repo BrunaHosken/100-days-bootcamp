@@ -5,13 +5,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 import os
-from time import sleep
 from dotenv import load_dotenv
 
 SIMILAR_ACCOUNT = "buzzfeedtasty" 
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD_TWITTER')
 
+load_dotenv()
 
 class InstaFollower:
 
