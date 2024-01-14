@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 load_dotenv()
 
-EMAIL_LINKEDIN = os.getenv('EMAIL_LINKEDIN')
+EMAIL = os.getenv('EMAIL')
 PASSWORD_LINKEDIN = os.getenv('PASSWORD_LINKEDIN')
 PHONE_LINKEDIN = "999999999"
 
@@ -35,7 +35,7 @@ sign_in.click()
 
 time.sleep(5)
 email = driver.find_element(By.ID, value="username")
-email.send_keys(EMAIL_LINKEDIN)
+email.send_keys(EMAIL)
 password = driver.find_element(By.ID, value="password")
 password.send_keys(PASSWORD_LINKEDIN,Keys.ENTER)
 

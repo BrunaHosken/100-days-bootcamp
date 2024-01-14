@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 
 load_dotenv()
 
-EMAIL_TINDER = os.getenv('EMAIL_TINDER')
+EMAIL = os.getenv('EMAIL')
 PASSWORD_TINDER = os.getenv('PASSWORD_TINDER')
 
 
@@ -38,7 +38,7 @@ driver.switch_to.window(fb_login_window)
 email = driver.find_element(By.XPATH, value='//*[@id="email"]')
 password = driver.find_element(By.XPATH, value='//*[@id="pass"]')
 
-email.send_keys(EMAIL_TINDER)
+email.send_keys(EMAIL)
 password.send_keys(PASSWORD_TINDER)
 password.send_keys(Keys.ENTER)
 
