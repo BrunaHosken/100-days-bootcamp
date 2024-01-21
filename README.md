@@ -51,3 +51,4 @@ Projects:
 - Automated Instagram Folower Bot
 - Data entry job aplication
 - Higher or Lower URLs
+- Name Card
