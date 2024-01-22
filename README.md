@@ -52,3 +52,4 @@ Projects:
 - Data entry job aplication
 - Higher or Lower URLs
 - Name Card
+- Blog Project
