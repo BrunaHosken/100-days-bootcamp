@@ -96,7 +96,6 @@ def find_movie():
     movie_id = request.args.get("id")
     if movie_id:
         movie_api_url = f"{URL_MOVIE_INFO}/{movie_id}"
-        print(movie_api_url)
         response = requests.get(movie_api_url, headers=headers,params={"language": "en-US"})
         data = response.json()
         new_movie = Movie(
@@ -107,7 +106,6 @@ def find_movie():
         )
         db.session.add(new_movie)
         db.session.commit()
-        print(data)
     return redirect(url_for("rate_movie", id=new_movie.id))
 
 
@@ -135,12 +133,3 @@ def delete_movie():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-# api 75b1309e42dd5a72aa070ff5f6b5dcbe
-    # token eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NWIxMzA5ZTQyZGQ1YTcyYWEwNzBmZjVmNmI1ZGNiZSIsInN1YiI6IjY1YWYzOTk1ZjhhZWU4MDEwYjFmYzE5MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ct962pM5Wsp8OpuOB07RP2MveJeEZJH7UboTB-_apko
-
-# import requests
-
-
-
-# print(response.text)
