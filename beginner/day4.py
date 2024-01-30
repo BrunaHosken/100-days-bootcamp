@@ -3,7 +3,7 @@
 
 import random
 
-import my_module
+import beginner.my_module as my_module
 
 #random
 random_integer = random.randint(1, 10)

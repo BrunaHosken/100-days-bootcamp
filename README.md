@@ -58,3 +58,4 @@ Projects:
 - Virtual Bookshelf
 - Top10 Movies
 - Analysing the Post-University Salaries of Graduates by Major 
+- Analysing the Popularity of Different Programming Languages over Time
