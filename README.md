@@ -53,7 +53,8 @@ Projects:
 - Higher or Lower URLs
 - Name Card
 - Blog Project
-- Startup Website dor TinDog
+- Startup Website for TinDog
 - Coffee and Wifi Project
 - Virtual Bookshelf
 - Top10 Movies
+- Analysing the Post-University Salaries of Graduates by Major 
