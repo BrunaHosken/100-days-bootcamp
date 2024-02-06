@@ -62,3 +62,5 @@ Projects:
 - Analysing a Dataset of LEGO Pieces
 - Analysing Google Trends Data
 - Analysing Android App Store Data
+- Analysing Nobel Prize
+- Analysing the discovery of handwashing
