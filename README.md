@@ -64,3 +64,26 @@ Projects:
 - Analysing Android App Store Data
 - Analysing Nobel Prize
 - Analysing the discovery of handwashing
+- Predicting House Prices
+
+
+Portfolio Projects:
+- Text to Morse Code Converter (Scripting)
+- Portfolio Website (Web Development)
+- Tic Tac Toe (Scripting)
+- Image Watermarking Desktop App (GUI)
+- Typing Speed Test (GUI)
+- Breakout Game (Game)
+- Cafe and Wifi Website (Web Development)
+- Todo List (Web Development)
+- Disappearing Text Writing App (GUI)
+- Convert PDF to Audiobook (API)
+- Image Colour Palette Generator (Data Science)
+- Custom Web Scraper (Web Scrapping)
+- Automate the Google Dinosaur Game (GUI)
+- Space Invaders (Game)
+- Custom API Based Website (API)
+- An Online Shop (Web Development)
+- Custom Automation (Automation)
+- Analyse and Visualise the Space Race (Data Science)
+- Analyse Deaths involving Police in the United States (Data Science)
