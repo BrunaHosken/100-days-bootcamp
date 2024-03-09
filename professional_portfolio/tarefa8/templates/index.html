@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  {% block styles %}
+  {{ bootstrap.load_css() }}
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-5W9824XKn4nSjG1s6t7zFv9xPY4Ab+P5pZfl2vFv3Ooq1L8RZ6E9u5ccU8RvFAj" crossorigin="anonymous">
+
+
+  {% endblock %}
+  <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <section class="vh-100" style="background-color: #e2d5de;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+      
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+      
+                  <h6 class="mb-3">Awesome Todo List</h6>
+      
+                  <form class="d-flex justify-content-center align-items-center mb-4" method="post" action="{{ url_for('new_post') }}">
+                    <div class="form-outline flex-fill">
+                        <input type="text" id="form3" name="task" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3">What do you need to do today?</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg ms-2">Add</button>
+                </form>
+                
+                
+      
+                <ul class="list-group">
+                    {% for item in items %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+                        <div class="d-flex align-items-center">
+                            <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." />
+                            {{ item }}
+                        </div>
+                        <a href="{{ url_for('delete_item', index=loop.index0) }}" class="btn btn-danger btn-sm">Delete</a>
+
+                    </li>
+                    {% endfor %}
+                </ul>
+                
+      
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+
+</html>
+
