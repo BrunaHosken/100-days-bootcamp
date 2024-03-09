@@ -29,27 +29,20 @@ def index():
     if request.method == 'POST':
         if 'image' in request.files:
             image_file = request.files['image']
-
-            # Verificar se é um arquivo de imagem válido
             if image_file.filename and allowed_file(image_file.filename):
                 try:
-                    # Salvar o arquivo temporariamente com um nome seguro
                     filename = secure_filename(image_file.filename)
                     temp_image_path = os.path.join(os.path.dirname(__file__), 'uploads', filename)
                     image_file.save(temp_image_path)
-
-                    # Obter as 10 principais cores
+                   
                     dominant_colors = get_top_colors(temp_image_path)
-                    print(dominant_colors)
-
-                    # Renderizar a página com as cores usando safe para evitar o erro
+                   
                     return render_template('index.html', dominant_colors=dominant_colors, safe=app.jinja_env.filters['safe'])
                 finally:
-                    # Remover o arquivo temporário
+                   
                     if os.path.exists(temp_image_path):
                         os.remove(temp_image_path)
-    
-    # Renderizar a página inicial
+
     return render_template('index.html')
 
 if __name__ == '__main__':
