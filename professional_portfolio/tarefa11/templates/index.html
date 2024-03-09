@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Extractor</title>
+</head>
+<body>
+    <h1>Color Extractor</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
+        <input type="file" name="image" accept=".png, .jpg, .jpeg" required>
+        <button type="submit">Extract Colors</button>
+    </form>
+
+    {% if dominant_colors %}
+        <h2>Top 10 Dominant Colors:</h2>
+        <div style="display: flex;">
+          {% for color in dominant_colors %}
+            <div style="width: 50px; height: 50px; background-color: rgb({{ color[0]|int }}, {{ color[1]|int }}, {{ color[2]|int }});"></div>
+          {% endfor %}
+      
+        </div>
+    {% endif %}
+</body>
+</html>
