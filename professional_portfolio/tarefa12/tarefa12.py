@@ -1,3 +1,5 @@
+# Build a custom web scraper to collect data on things that you are interested in.
+
 import requests
 from bs4 import BeautifulSoup
 
